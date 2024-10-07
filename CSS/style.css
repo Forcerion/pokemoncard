@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+.pokemon-number {
+    background-color: lightskyblue;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 10%;
+    font-weight: 800;
+    border-radius: 4px;
+}
+
+.pokemon-name {
+    background-color: orangered;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 40%;
+    font-weight: 800;
+    border-radius: 4px;
+}
+
+.pokemon-type {
+    background-color: yellowgreen;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-weight: 800;
+    border-radius: 4px;  
+}
+
+.pokemon-category {
+    padding-left: 0;
+    list-style-type: none;
+    width: 40px;
+    margin-left: auto;
+}
+
+.flight-category {
+    background-color: blue;
+    justify-content: center;
+    display: flex;
+    border-radius: 40px;
+    color: white;
+}
+
+.fire-category {
+    background-color: red;
+    margin-top: 8px;
+    border-radius: 40px;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
